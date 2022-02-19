@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\c#\\#university_projects\\CSharp_university_projects\\hw1\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "D:\\Code\\university_projects\\c#\\#university_projects\\CSharp_university_projects\\hw1\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "D:\\Code\\c#\\#university_projects\\CSharp_university_projects\\hw1\\WpfApp1\\WpfApp1.csproj",
+      "projectPath": "D:\\Code\\university_projects\\c#\\#university_projects\\CSharp_university_projects\\hw1\\WpfApp1\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\igory\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\c#\\#university_projects\\CSharp_university_projects\\hw1\\WpfApp1\\obj\\",
+      "outputPath": "D:\\Code\\university_projects\\c#\\#university_projects\\CSharp_university_projects\\hw1\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\igory\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -5,23 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="600">
+        Title="MainWindow" Height="250" Width="500">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50" />
             <RowDefinition Height="50" />
             <RowDefinition Height="50" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" HorizontalAlignment="Stretch" Content="Enter your date" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  FontSize="20"  Foreground="DarkSlateGray"/>
-        <DatePicker Grid.Row="1" FontSize="20" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalContentAlignment="Center" FirstDayOfWeek="Monday" IsTodayHighlighted="True" Foreground="DarkSlateGray"
-                    SelectedDate="{Binding Date , UpdateSourceTrigger=PropertyChanged}"/>
-        <Button Grid.Row="2" Background="Green" Content="Submit" FontSize="15"  Foreground="Azure"  Command="{Binding Submit}" Margin="100,10,100,0"/>
-        <TextBlock  Grid.Row="3" Grid.Column="0" Margin="10,10,0,0" HorizontalAlignment="Left"  VerticalAlignment="Stretch"   FontSize="15" TextAlignment="Center" Foreground="DarkSlateGray" Text="{Binding Age, UpdateSourceTrigger=PropertyChanged}"/>
-        <TextBlock  Grid.Row="4" Grid.Column="0" Margin="10,10,0,0" HorizontalAlignment="Left"  VerticalAlignment="Stretch"   FontSize="15" TextAlignment="Center" Foreground="DarkSlateGray" Text="{Binding WesternZodiac, UpdateSourceTrigger=PropertyChanged}"/>
-        <TextBlock  Grid.Row="5" Grid.Column="0" Margin="10,10,0,0" HorizontalAlignment="Left"  VerticalAlignment="Stretch"   FontSize="15" TextAlignment="Center" Foreground="DarkSlateGray" Text="{Binding ChineseZodiac, UpdateSourceTrigger=PropertyChanged}"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" HorizontalAlignment="Stretch" Content="Enter your date" HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center" FontSize="22"/>
+        <DatePicker Grid.Row="1" FontSize="22" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"
+                    VerticalContentAlignment="Center" FirstDayOfWeek="Monday" IsTodayHighlighted="True"
+                    SelectedDate="{Binding Date , UpdateSourceTrigger=PropertyChanged}" />
+        <Button Grid.Row="2" Width="80" Background="Green" Content="Submit" FontSize="15" Foreground="White"
+                Command="{Binding Submit}" Margin="50,10,50,0" />
+        <TextBlock Grid.Row="0" Grid.Column="1" Margin="10,10,0,0" HorizontalAlignment="Left"
+                   VerticalAlignment="Stretch" FontSize="18" TextAlignment="Center" 
+                   Text="{Binding Age, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBlock Grid.Row="1" Grid.Column="1" Margin="10,10,0,0" HorizontalAlignment="Left"
+                   VerticalAlignment="Stretch" FontSize="18" TextAlignment="Center" 
+                   Text="{Binding WesternZodiac, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="10,10,0,0" HorizontalAlignment="Left"
+                   VerticalAlignment="Stretch" FontSize="18" TextAlignment="Center"
+                   Text="{Binding ChineseZodiac, UpdateSourceTrigger=PropertyChanged}" />
     </Grid>
 </Window>
-
