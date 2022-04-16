@@ -58,7 +58,7 @@ public class ViewModel : INotifyPropertyChanged
     {
         CurrentDate = DateTime.Today;
         user = new User();
-        Date = CurrentDate;
+        Date = DateTime.Today;
         calculate = new Calculate();
     }
 

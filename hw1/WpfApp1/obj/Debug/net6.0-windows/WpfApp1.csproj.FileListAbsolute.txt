@@ -2,7 +2,6 @@ D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\h
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.deps.json
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.runtimeconfig.json
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.dll
-D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\bin\Debug\net6.0-windows\ref\WpfApp1.dll
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.pdb
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.AssemblyReference.cache
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
@@ -16,6 +15,7 @@ D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\h
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfo.cs
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.dll
-D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll
+D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\refint\WpfApp1.dll
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.pdb
 D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.genruntimeconfig.cache
+D:\Code\university_projects\c#\#university_projects\CSharp_university_projects\hw1\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll
